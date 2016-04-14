@@ -17,7 +17,8 @@ function peopleToggle() {
             map: map,
             draggable: false,
             animation: google.maps.Animation.DROP,
-            position: {lat: 59.3293, lng: 18.067}
+            position: {lat: 59.3293, lng: 18.067},
+            icon: 'heatmap.png'
         });
         peopleMarker.addListener('click', toggleBounce);
         peopleToggler = true;
