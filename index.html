@@ -6,26 +6,39 @@
         <link rel="stylesheet" href="index.css" media="screen" charset="utf-8">
     </head>
     <body>
-        <div id="map">
-            <script src="map.js">
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-         async defer>
-            </script>
+
+        <div id="information-view">
+            <h2>A map showing where there is a lot of people</h2>
+            <p>
+                Using location data from mobile phones we can show where there is clusters of people. If you want to find some place quiet or want to find places where there is a lot of people use me!
+            </p>
+            <p>
+                Other features such as geocaching and sightseeing are coming.
+            </p>
         </div>
+        <div id="map-container">
 
-        <div id="button-list">
-            <div class="button">
-                <button type="button" onclick="peopleToggle()"></button>
+            <div id="map">
+                <script src="map.js">
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+             async defer>
+                </script>
             </div>
-            <div class="button">
 
-            </div>
-            <div class="button">
+            <div id="button-list">
+                <div class="button">
+                    <button type="button" onclick="peopleToggle()"></button>
+                </div>
+                <div class="button">
 
-            </div>
-            <div class="button">
+                </div>
+                <div class="button">
 
+                </div>
+                <div class="button">
+
+                </div>
             </div>
         </div>
     </body>

@@ -6,7 +6,11 @@ function initMap() {
     map = new google.maps.Map(mapDiv, {
         center: {lat: 59.3293, lng: 18.0686},
         zoom: 14,
-        disableDefaultUI: true
+        disableDefaultUI: true,
+        draggable: false,
+        scrollwheel: false,
+        navigationControl: false,
+        scaleControl: false
     });
 }
 
