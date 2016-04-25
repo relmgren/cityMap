@@ -14,9 +14,8 @@
       <p>
           Other features such as geocaching and sightseeing are coming.
       </p>
-  </div>
-  <div id="map-container">
-
+    </div>
+    <div id="map-container">
       <div id="map">
           <script src="map.js">
           </script>
@@ -26,19 +25,21 @@
       </div>
 
       <div id="button-list">
-          <div class="button">
-              <button type="button" onclick="peopleToggle()"></button>
+        <a onclick="peopleToggle()">
+          <div class="button" id="heatmap">
           </div>
-          <div class="button">
-
+        </a>
+        <a onclick="roadToggle()">
+          <div class="button" id="roadmap">
           </div>
-          <div class="button">
-
+        </a>
+        <a onclick="busToggle()">
+          <div class="button" id="busmap">
           </div>
-          <div class="button">
-
-          </div>
+        </a>
       </div>
-  </div>
-</body>
+      <div id="information-click">
+      </div>
+    </div>
+  </body>
 </html>
