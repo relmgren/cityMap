@@ -53,7 +53,14 @@ body {
 }
 
 #busmap {
-  background: url('bus.png') no-repeat center center;
+  background: url('bus1.png') no-repeat center center;
+  background-size: contain;
+  border: 3px solid black;
+  box-shadow: 1px 1px 1px grey;
+}
+
+#sightsmap {
+  background: url('world-heritage.png') no-repeat center center;
   background-size: contain;
   border: 3px solid black;
   box-shadow: 1px 1px 1px grey;
